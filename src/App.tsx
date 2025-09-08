@@ -1,22 +1,28 @@
-import { useState } from 'react'
-import { Menu } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import './App.css'
+import { useState } from "react";
+import { Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import "./App.css";
 
 function App() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   const Sidebar = () => (
     <div className="flex flex-col gap-4 p-4 w-64 bg-gray-100 h-full">
       <h2 className="text-xl font-semibold">Menu</h2>
       <nav className="flex flex-col gap-2">
-        <a href="#" className="hover:text-blue-600">Dashboard</a>
-        <a href="#" className="hover:text-blue-600">Settings</a>
-        <a href="#" className="hover:text-blue-600">Profile</a>
+        <a href="#" className="hover:text-blue-600">
+          Dashboard
+        </a>
+        <a href="#" className="hover:text-blue-600">
+          Settings
+        </a>
+        <a href="#" className="hover:text-blue-600">
+          Profile
+        </a>
       </nav>
     </div>
-  )
+  );
 
   return (
     <div className="flex h-screen flex-col md:flex-row">
@@ -45,7 +51,7 @@ function App() {
         <h1 className="text-3xl font-bold tracking-tight">My App</h1>
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
