@@ -49,6 +49,7 @@ function App() {
       {/* Main content */}
       <main className="flex-1 p-6 overflow-y-auto">
         <h1 className="text-3xl font-bold tracking-tight">My App</h1>
+        <p>Now the app is deployed through GitHub Actions!</p>
       </main>
     </div>
   );

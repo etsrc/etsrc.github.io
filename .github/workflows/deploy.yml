@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22.19.0
+
+      - name: Install dependencies
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile
+
+      - name: Build site
+        run: pnpm build
+
+      - name: Deploy to gh-pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git clone --branch gh-pages --single-branch https://github.com/${{ github.repository }} gh-pages
+
+          rsync -av --delete dist/ gh-pages/
+
+          cd gh-pages
+          git add .
+          git commit -m "Deploy from GitHub Actions" || echo "No changes to commit"
+          git push
