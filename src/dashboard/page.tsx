@@ -13,9 +13,8 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar";
-import "./App.css";
 
-export default function App() {
+export default function Page() {
   return (
     <SidebarProvider>
       <AppSidebar />
