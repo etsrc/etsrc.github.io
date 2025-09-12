@@ -14,6 +14,12 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar";
 import { ModeToggle } from "@/components/mode-toggle";
+import { Routes, Route } from "react-router-dom";
+import IndexPage from "@/pages/index-page";
+import ChatPage from "@/pages/coding/chat";
+import EditorPage from "@/pages/coding/editor";
+import AgentPage from "@/pages/coding/agent";
+import McpPage from "@/pages/coding/mcp";
 
 export default function Page() {
   return (
@@ -46,12 +52,13 @@ export default function Page() {
           </div>
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-          <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-            <div className="bg-muted/50 aspect-video rounded-xl">Some Text</div>
-            <div className="bg-muted/50 aspect-video rounded-xl" />
-            <div className="bg-muted/50 aspect-video rounded-xl" />
-          </div>
-          <div className="bg-muted/50 min-h-[100vh] flex-1 rounded-xl md:min-h-min" />
+          <Routes>
+            <Route path="/" element={<IndexPage />} />
+            <Route path="/chat" element={<ChatPage />} />
+            <Route path="/editor" element={<EditorPage />} />
+            <Route path="/agent" element={<AgentPage />} />
+            <Route path="/mcp" element={<McpPage />} />
+          </Routes>
         </div>
       </SidebarInset>
     </SidebarProvider>
