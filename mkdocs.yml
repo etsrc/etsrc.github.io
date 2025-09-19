@@ -1,0 +1,15 @@
+site_name: etSrc
+docs_dir: docs
+
+extra_css:
+  - style.css
+
+nav:
+  - Dev News: dev-news.md
+  - Vibe Coding: vibe-coding.md
+  - Golang: golang.md
+  - Command Line: command-line.md
+#  - JavaScript: javascript.md
+#  - Tools: tools.md
+#  - Guides:
+#    - GitHub: guides/github.md
