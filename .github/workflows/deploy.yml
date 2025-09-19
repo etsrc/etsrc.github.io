@@ -1,4 +1,5 @@
 name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
@@ -12,18 +13,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
+      - name: Set up Python
+        uses: actions/setup-python@v6
         with:
-          node-version: 22.19.0
+          python-version: "3.13"
 
-      - name: Install dependencies
+      - name: Install MkDocs and plugins
         run: |
-          corepack enable
-          pnpm install --frozen-lockfile
+          pip install mkdocs mkdocs-material
 
       - name: Build site
-        run: pnpm build
+        run: mkdocs build --strict
 
       - name: Deploy to gh-pages
         run: |
@@ -32,7 +32,7 @@ jobs:
 
           git clone --branch gh-pages --single-branch https://github.com/${{ github.repository }} gh-pages
 
-          rm -rf gh-pages/* && cp -r dist/* gh-pages/
+          rm -rf gh-pages/* && cp -r site/* gh-pages/
 
           cd gh-pages
           git add .
