@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Golang - etSrc</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../style.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">etSrc</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../dev-news/" class="nav-link">Dev News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../vibe-coding/" class="nav-link">Vibe Coding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Golang</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../command-line/" class="nav-link">Command Line</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../vibe-coding/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../command-line/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#golang" class="nav-link">Golang</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#tools" class="nav-link">Tools</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#development" class="nav-link">Development</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#useful" class="nav-link">Useful</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#vs-code-plugins" class="nav-link">VS Code Plugins</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#learning" class="nav-link">Learning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#books" class="nav-link">Books</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="golang">Golang</h1>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/golangci/golangci-lint">golangci/golangci-lint</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/go-task/task">go-task/task</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/golang-migrate/migrate">golang-migrate/migrate</a></li>
+</ul>
+<h2 id="development">Development</h2>
+<ul>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/stretchr/testify">stretchr/testify</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/open-telemetry/opentelemetry-go">open-telemetry/opentelemetry-go</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/sirupsen/logrus">sirupsen/logrus</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/uber-go/zap">uber-go/zap</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/google/wire">google/wire</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/grpc/grpc-go">grpc/grpc-go</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/getkin/kin-openapi">getkin/kin-openapi</a></li>
+</ul>
+<h2 id="useful">Useful</h2>
+<ul>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/avelino/awesome-go">avelino/awesome-go</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/wailsapp/wails">wailsapp/wails</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/charmbracelet/bubbletea">charmbracelet/bubbletea</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=16" /> <a href="https://github.com/spf13/cobra">spf13/cobra</a></li>
+</ul>
+<h2 id="vs-code-plugins">VS Code Plugins</h2>
+<ul>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks">Bookmarks</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev">Claude Dev</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">Code Spell Checker</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=Continue.continue">Continue</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=huizhou.githd">GitHD</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=arturock.gitstash">GitStash</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot">GitHub Copilot</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat">GitHub Copilot Chat</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=golang.Go">Go</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=ZainChen.json">JSON</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json">Prettify JSON</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client">REST Client</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=task.vscode-task">Task</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3">vscode-proto3</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=visualstudio.com&amp;sz=16" /> <a href="https://marketplace.visualstudio.com/items?itemName=kirozen.wordcounter">Word Counter</a></li>
+</ul>
+<h2 id="learning">Learning</h2>
+<ul>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=go.dev&amp;sz=16" /> <a href="https://go.dev/tour/">Go Tour</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=gobyexample.com&amp;sz=16" /> <a href="https://gobyexample.com/">Go by Example</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=gitbook.io&amp;sz=16" /> <a href="https://quii.gitbook.io/learn-go-with-tests/">Learn Go with Tests</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=gointerview.dev&amp;sz=16" /> <a href="https://app.gointerview.dev/">Go Interview</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=adventofcode.com&amp;sz=16" /> <a href="https://adventofcode.com/">Advent of Code</a></li>
+</ul>
+<h2 id="books">Books</h2>
+<ul>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=oreilly.com&amp;sz=16" /> <a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=oreilly.com&amp;sz=16" /> <a href="https://www.oreilly.com/library/view/go-cookbook/9781098122102/">Go Cookbook</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=manning.com&amp;sz=16" /> <a href="https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them">100 Go Mistakes</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=oreilly.com&amp;sz=16" /> <a href="https://www.oreilly.com/library/view/efficient-go/9781098105709/">Efficient Go</a></li>
+<li><img alt="Favicon" src="https://www.google.com/s2/favicons?domain=oreilly.com&amp;sz=16" /> <a href="https://www.oreilly.com/library/view/domain-driven-design-with/9781804613450/">Domain-Driven Design with Go</a></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
