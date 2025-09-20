@@ -97,7 +97,7 @@ func baseDomain(host string) string {
 		return host
 	}
 	// Handle common 2-part TLDs (co.uk, com.au, etc.)
-	tld2 := []string{"co.uk", "com.au", "co.jp", "co.in"}
+	tld2 := []string{"co.uk", "com.au", "co.jp", "co.in", "amazon.com"}
 	lastTwo := strings.Join(parts[len(parts)-2:], ".")
 	lastThree := strings.Join(parts[len(parts)-3:], ".")
 	for _, t := range tld2 {

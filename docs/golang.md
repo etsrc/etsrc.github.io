@@ -49,6 +49,7 @@
 ## Learning
 
 - ![Favicon](https://www.google.com/s2/favicons?domain=go.dev&sz=16) [Go Tour](https://go.dev/tour/)
+- ![Favicon](https://www.google.com/s2/favicons?domain=go.dev&sz=16) [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go)
 - ![Favicon](https://www.google.com/s2/favicons?domain=gobyexample.com&sz=16) [Go by Example](https://gobyexample.com/)
 - ![Favicon](https://www.google.com/s2/favicons?domain=gitbook.io&sz=16) [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 - ![Favicon](https://www.google.com/s2/favicons?domain=gointerview.dev&sz=16) [Go Interview](https://app.gointerview.dev/)
