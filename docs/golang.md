@@ -1,11 +1,17 @@
 # Golang
 
+- ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [GitHub - uber-go/zap: Blazing fast, structured, leveled logging in Go.](https://github.com/uber-go/zap)
+- ![Favicon](https://www.google.com/s2/favicons?domain=visualstudio.com&sz=16) [Bookmarks - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+- ![Favicon](https://www.google.com/s2/favicons?domain=gobyexample.com&sz=16) [Go by Example](https://gobyexample.com/)
+
 ## Tools
+
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [golangci/golangci-lint](https://github.com/golangci/golangci-lint)
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [go-task/task](https://github.com/go-task/task)
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 
 ## Development
+
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [stretchr/testify](https://github.com/stretchr/testify)
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go)
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [sirupsen/logrus](https://github.com/sirupsen/logrus)
@@ -15,13 +21,14 @@
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [getkin/kin-openapi](https://github.com/getkin/kin-openapi)
 
 ## Useful
+
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [avelino/awesome-go](https://github.com/avelino/awesome-go)
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [wailsapp/wails](https://github.com/wailsapp/wails)
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)
 - ![Favicon](https://www.google.com/s2/favicons?domain=github.com&sz=16) [spf13/cobra](https://github.com/spf13/cobra)
 
-
 ## VS Code Plugins
+
 - ![Favicon](https://www.google.com/s2/favicons?domain=visualstudio.com&sz=16) [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 - ![Favicon](https://www.google.com/s2/favicons?domain=visualstudio.com&sz=16) [Claude Dev](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev)
 - ![Favicon](https://www.google.com/s2/favicons?domain=visualstudio.com&sz=16) [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
@@ -40,6 +47,7 @@
 - ![Favicon](https://www.google.com/s2/favicons?domain=visualstudio.com&sz=16) [Word Counter](https://marketplace.visualstudio.com/items?itemName=kirozen.wordcounter)
 
 ## Learning
+
 - ![Favicon](https://www.google.com/s2/favicons?domain=go.dev&sz=16) [Go Tour](https://go.dev/tour/)
 - ![Favicon](https://www.google.com/s2/favicons?domain=gobyexample.com&sz=16) [Go by Example](https://gobyexample.com/)
 - ![Favicon](https://www.google.com/s2/favicons?domain=gitbook.io&sz=16) [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
@@ -47,6 +55,7 @@
 - ![Favicon](https://www.google.com/s2/favicons?domain=adventofcode.com&sz=16) [Advent of Code](https://adventofcode.com/)
 
 ## Books
+
 - ![Favicon](https://www.google.com/s2/favicons?domain=oreilly.com&sz=16) [Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)
 - ![Favicon](https://www.google.com/s2/favicons?domain=oreilly.com&sz=16) [Go Cookbook](https://www.oreilly.com/library/view/go-cookbook/9781098122102/)
 - ![Favicon](https://www.google.com/s2/favicons?domain=manning.com&sz=16) [100 Go Mistakes](https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them)
